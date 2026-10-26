@@ -50,6 +50,7 @@ dataset_A, dataset_B = generate_datasets()
 final_list, total_comparisons = consolidate_records(dataset_A, dataset_B)
 count_ok, order_ok, exp_cnt, act_cnt = verify_results(dataset_A, dataset_B, final_list)
 
+
 print("===== ASSESSMENT DATA =====")
 print(f"Department A dataset: {dataset_A}")
 print(f"Department B dataset: {dataset_B}")
